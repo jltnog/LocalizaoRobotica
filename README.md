@@ -9,8 +9,10 @@ https://github.com/lar-deeufba/lar_gazebo
 1° Terminal
 source ~/projeto_ws/devel/setup.bash
 roslaunch lar_gazebo lar_ardrone_drone.launch
+
 2° Terminal
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
 3° Terminal
 rosrun lsd_slam_core live_slam /image:=/ardrone/front_camera/image_raw /camera_info:=/ardrone/camera_info
 
