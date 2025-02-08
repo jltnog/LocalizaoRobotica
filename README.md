@@ -8,6 +8,7 @@ https://github.com/lar-deeufba/lar_gazebo
 
 1° Terminal
 source ~/projeto_ws/devel/setup.bash
+
 roslaunch lar_gazebo lar_ardrone_drone.launch
 
 2° Terminal
